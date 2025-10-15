@@ -10,7 +10,7 @@ export class Template extends AventusTemplate {
             version: "0.0.1",
             allowQuick: false,
             documentation: "https://laraventus.com",
-            repository: "https://github.com/Cobwebsite/Laraventus",
+            repository: "https://github.com/Cobwebsite/Laraventus_Template_Project",
         };
     }
     protected override async run(destination: string): Promise<void> {
