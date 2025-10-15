@@ -1,0 +1,37 @@
+import { Page } from "Aventus@UI:Aventus.Navigation.package.avt";
+
+export class HomePage extends Page implements Aventus.DefaultComponent {
+
+	//#region static
+	
+	//#endregion
+	
+	
+	//#region props
+	
+	//#endregion
+	
+	
+	//#region variables
+	
+	//#endregion
+	
+	
+	//#region constructor
+	
+	//#endregion
+	
+	
+	//#region methods
+    /**
+     * @inheritdoc
+     */
+    public override configure(): Aventus.Asyncable<Page.PageConfig> {
+        return {
+			title: "Home page Laraventus"
+		}
+    }
+	
+	//#endregion
+	
+}

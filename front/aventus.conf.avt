@@ -1,0 +1,28 @@
+{
+	"module": "${{name}}",
+	"componentPrefix": "${{prefix}}",
+	"hideWarnings": true,
+	"build": [
+		{
+			"src": [
+				"./src/*",
+				"./generated/*"
+			],
+			"compile": [
+				{
+					"output": "../public/js/index.js"
+				}
+			],
+			"dependances": {
+				"Aventus@UI": {}
+			}
+		}
+	],
+	"static": [
+		{
+			"name": "Main",
+			"input": "./static",
+			"output": "../public"
+		}
+	]
+}

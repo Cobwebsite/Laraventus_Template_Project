@@ -1,0 +1,36 @@
+import { Router } from "Aventus@UI:Aventus.Navigation.package.avt";
+import { HomePage } from "../pages/HomePage/HomePage.wcl.avt";
+
+export class Main extends Router implements Aventus.DefaultComponent {
+
+	//#region static
+	
+	//#endregion
+	
+	
+	//#region props
+	
+	//#endregion
+	
+	
+	//#region variables
+	
+	//#endregion
+	
+	
+	//#region constructor
+	
+	//#endregion
+	
+	
+	//#region methods
+    /**
+     * @inheritdoc
+     */
+    protected override defineRoutes(): void {
+        this.addRoute('/', HomePage);
+    }
+	
+	//#endregion
+	
+}
