@@ -7,7 +7,7 @@ export class Template extends AventusTemplate {
             installationFolder: "Laraventus/Project",
             isProject: true,
             tags: ["Laravel", "Project"],
-            version: "0.0.1",
+            version: "0.0.2",
             allowQuick: false,
             documentation: "https://laraventus.com",
             repository: "https://github.com/Cobwebsite/Laraventus_Template_Project",
