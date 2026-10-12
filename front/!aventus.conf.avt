@@ -13,7 +13,7 @@
 					"output": "../public/js/index.js"
 				}
 			],
-			"dependances": {
+			"dependencies": {
 				"Aventus@UI": {}
 			}
 		}
